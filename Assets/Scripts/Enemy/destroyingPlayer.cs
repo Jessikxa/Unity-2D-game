@@ -24,7 +24,7 @@ public class destroyingPlayer : MonoBehaviour
         {
             print("working");
             //Destroy(collision.gameObject);
-            //SceneManager.LoadScene(SceneManager.GetActiveScene());
+            SceneManager.LoadScene(0);
             //SceneManager.LoadScene;
         }
     }

@@ -17,11 +17,12 @@ public class finishPoint : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        //if (collision.CompareTag("Player"))
-        //{
-        //    //laad volgende level
-        //    gameManage.dontDestroy.levelNext();
-        //}
+        if (collision.CompareTag("Player"))
+        {
+            //laad volgende level
+            SceneManager.LoadScene(1);
+            //gameManage.dontDestroy.levelNext();
+        }
         //SceneManager.LoadScene(1);
 
     }
