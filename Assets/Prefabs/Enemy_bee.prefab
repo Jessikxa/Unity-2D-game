@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6933679443304863406}
   - component: {fileID: 8072650772657945549}
   - component: {fileID: 5699537475873461320}
+  - component: {fileID: 5126222742679844943}
   m_Layer: 0
   m_Name: Enemy_bee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4207561729711678172}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.38, y: -1.07, z: 0}
   m_LocalScale: {x: 3.1313686, y: 2.2064357, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162,3 +163,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5126222742679844943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207561729711678172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb315404da016c418f26e898e59a5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
