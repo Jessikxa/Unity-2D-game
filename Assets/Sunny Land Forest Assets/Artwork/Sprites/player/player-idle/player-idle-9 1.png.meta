@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: d3e4ae620084e4e91bf9911e65316475
-AssetOrigin:
-  serializedVersion: 1
-  productId: 108124
-  packageName: Sunny Land Forest
-  packageVersion: 1.0
-  assetPath: Assets/Sunny Land Forest Assets/Artwork/Sprites/player/player-idle/player-idle-9.png
-  uploadId: 221328
+guid: 4d4900782466f0f499ef1af2ef49a598
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
